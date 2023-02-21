@@ -84,8 +84,8 @@ public:
     seg.setModelType(pcl::SACMODEL_CYLINDER);
     seg.setMethodType(pcl::SAC_RANSAC);
     seg.setNormalDistanceWeight(0.1);
-    seg.setMaxIterations(1000);
-    seg.setDistanceThreshold(0.05);
+    seg.setMaxIterations(100);
+    seg.setDistanceThreshold(0.01);
     seg.setRadiusLimits(0.01, 0.05);
     seg.setInputCloud(cloud_explane);
     seg.setInputNormals(cloud_normals2);

@@ -1,5 +1,5 @@
 <launch>
 <node pkg="pcl_surface" type="ECE" name="ece">
-    <remap from="input_cloud" to="/camera/depth_registered/points"/>
+    <remap from="input_topic" to="/camera/depth_registered/points"/>
     </node>
 </launch>
