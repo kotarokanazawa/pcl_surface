@@ -213,5 +213,5 @@ add_definitions(${PCL_DEFINITIONS})
 add_executable(pcl_plane src/premitive.cpp)
 target_link_libraries(pcl_plane ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
-add_executable(dbscan src/dbscan.cpp)
-target_link_libraries(dbscan ${catkin_LIBRARIES} ${PCL_LIBRARIES})
+add_executable(ECE src/ECE.cpp)
+target_link_libraries(ECE ${catkin_LIBRARIES} ${PCL_LIBRARIES})
