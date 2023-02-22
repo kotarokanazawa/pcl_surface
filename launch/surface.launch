@@ -1,0 +1,5 @@
+<launch>
+<node pkg="pcl_surface" type="pcl_plane" name="surface_viewer">
+    <remap from="input_topic" to="/camera/depth_registered/points"/>
+    </node>
+</launch>

@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/satolab/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/satolab/catkin_ws/src/choreonoid/include/**",
+        "/home/satolab/catkin_ws/src/darknet_ros/darknet_ros/include/**",
+        "/home/satolab/catkin_ws/src/dynamixel_controller/include/**",
+        "/home/satolab/catkin_ws/src/Imax/epos_manager/include/**",
+        "/home/satolab/catkin_ws/src/Imax/fukuda_utility/include/**",
+        "/home/satolab/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/satolab/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/satolab/catkin_ws/src/hitro_joy_to_arduino/include/**",
+        "/home/satolab/catkin_ws/src/Imax/imax_dynamixel_controller/include/**",
+        "/home/satolab/catkin_ws/src/Imax/imax_qrcode/include/**",
+        "/home/satolab/catkin_ws/src/Imax/info_integrater_2Dmap/include/**",
+        "/home/satolab/catkin_ws/src/ros_controllers/joint_trajectory_controller/include/**",
+        "/home/satolab/catkin_ws/src/Imax/joy2command/include/**",
+        "/home/satolab/catkin_ws/src/Imax/owlift_ros/include/**",
+        "/home/satolab/catkin_ws/src/Imax/readiness_test/include/**",
+        "/home/satolab/catkin_ws/src/Imax/rt_usb_9axisimu_driver/include/**",
+        "/home/satolab/catkin_ws/src/Imax/slam_nitro/include/**",
+        "/home/satolab/catkin_ws/src/Imax/text_recognition/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
